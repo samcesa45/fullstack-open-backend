@@ -4,7 +4,7 @@
   "description": "An api to provide raw data to the client",
   "main": "index.ts",
   "scripts": {
-    "dev": "ts-node-dev index.ts",
+    "start": "ts-node-dev index.ts",
     "lint": "eslint --ext .ts .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
