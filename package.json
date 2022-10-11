@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "An api to provide raw data to the client",
   "main": "index.ts",
+  "engines": {
+    "node": "16.17.1"
+  },
   "scripts": {
     "start": "ts-node-dev index.ts",
     "lint": "eslint --ext .ts .",
@@ -14,6 +17,7 @@
   "author": "samcesa45",
   "license": "MIT",
   "devDependencies": {
+    "@types/cors": "^2.8.12",
     "@types/express": "^4.17.14",
     "@types/node": "^18.8.3",
     "@typescript-eslint/eslint-plugin": "^5.39.0",
@@ -25,7 +29,10 @@
   },
   "dependencies": {
     "@types/morgan": "^1.9.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "express": "^4.18.1",
+    "mongoose": "^6.6.5",
     "morgan": "^1.10.0"
   }
 }
