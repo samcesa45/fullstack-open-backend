@@ -4,9 +4,9 @@
 ├── build
 │   └── ...
 ├── controllers
-│   └── notes.ts
+│   └── persons.ts
 ├── models
-│   └── note.ts
+│   └── person.ts
 ├── package-lock.json
 ├── package.json
 ├── utils
